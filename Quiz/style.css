@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+font-family: "Aktiv Grotesk", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+color: #3a3a3a;
+font-smoothing: antialiased;
+-webkit-font-smoothing: antialiased;
+font-kerning: normal;
+-webkit-font-kerning: normal;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.text-block--readme .quiz-block .question-selection, .text-block--readme .quiz-block .question-selection.remove-hover:hover {
+background-color: #f8f8f8;
+border: 2px solid transparent;
+padding: 16px 64px 16px 32px;
+margin-top: 5px;
+position: relative;
+cursor: default;
+}
+
+.text-block--readme .quiz-block .question-block {
+padding: 32px 64px;
+}
